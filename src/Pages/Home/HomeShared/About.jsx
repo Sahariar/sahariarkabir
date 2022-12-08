@@ -14,7 +14,7 @@ const About = () => {
 				</div>
 				<div className="details flex flex-col-reverse lg:flex-row pb-10">
 					<div className="lg:w-4/12 ml-24">
-						<img src="https://i.ibb.co/TRwLy5B/linkedin.jpg" alt="Sahariar Kabir" />
+						<img src="https://i.ibb.co/TRwLy5B/linkedin.jpg" alt="Sahariar Kabir" className="rounded-lg shadow-lg" />
 					</div>
 					<div className=" lg:w-1/2 p-6">
 						<div className="mb-10">
