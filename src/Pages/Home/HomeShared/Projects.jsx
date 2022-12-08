@@ -14,10 +14,10 @@ const Projects = () => {
 					</div>
 				</div>
 				<div className="details flex flex-col-reverse lg:flex-row pb-10">
-					<div className="grid grid-cols-2 lg:grid-cols-3 gap-10">
+					<div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 mx-auto">
 						
 						{/* card 1 */}
-                        <div className="card  bg-base-100 shadow-xl hover:shadow-2xl">
+                        <div className="card w-80 md:w-96 mx-auto bg-base-100 shadow-xl hover:shadow-2xl">
 							
 								<figure>
 									<img
@@ -53,11 +53,11 @@ const Projects = () => {
 						</div>
                         {/* card 1 */}
                         {/* card 2 */}
-                        <div className="card  bg-base-100 shadow-xl hover:shadow-2xl">
+                        <div className="card w-80 md:w-96 mx-auto bg-base-100 shadow-xl hover:shadow-2xl">
 							
 								<figure>
 									<img
-										src="https://i.ibb.co/K2KCQHw/get-Looking.jpg"
+										src="https://i.ibb.co/s3d3Zvy/Getllooking-Great.jpg"
 										alt="Resell Game Console Market"
 										className="rounded-t-xl"
 									/>
@@ -87,7 +87,7 @@ const Projects = () => {
 						</div>
                         {/* card 2 */}
                                                  {/* card 6 */}
-                                                 <div className="card  bg-base-100 shadow-xl hover:shadow-2xl">
+                                                 <div className="card w-80 md:w-96 mx-auto bg-base-100 shadow-xl hover:shadow-2xl">
 							
                             <figure>
                                 <img
@@ -122,7 +122,7 @@ const Projects = () => {
                     </div>
                     {/* card 6 */}
                         {/* card 3 */}
-                        <div className="card  bg-base-100 shadow-xl hover:shadow-2xl">
+                        <div className="card w-80 md:w-96 mx-auto bg-base-100 shadow-xl hover:shadow-2xl">
 							
 								<figure>
 									<img
@@ -153,7 +153,7 @@ const Projects = () => {
                         {/* card 3 */}
 
                         {/* card 4 */}
-                        <div className="card  bg-base-100 shadow-xl hover:shadow-2xl">
+                        <div className="card w-80 md:w-96 mx-auto bg-base-100 shadow-xl hover:shadow-2xl">
 							
 								<figure>
 									<img
@@ -185,7 +185,7 @@ const Projects = () => {
 						</div>
                         {/* card 4 */}
                         {/* card 5 */}
-                        <div className="card  bg-base-100 shadow-xl hover:shadow-2xl">
+                        <div className="card w-80 md:w-96 mx-auto bg-base-100 shadow-xl hover:shadow-2xl">
 							
 								<figure>
 									<img

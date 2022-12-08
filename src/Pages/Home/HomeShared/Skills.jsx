@@ -27,7 +27,7 @@ const Skills = () => {
 					</div>
 				</div>
 				<div className="details flex pb-10">
-					<div className="w-8/12 mx-auto text-center ">
+					<div className="lg:w-8/12 w-11/12 mx-auto text-center ">
                     <div className="text-2xl mb-10">Web Technologies</div>
 						<div className="grid grid-cols-2 lg:grid-cols-4  xl:grid-cols-6 gap-4">
 							<button className="btn btn-outline gap-2 p-0">
