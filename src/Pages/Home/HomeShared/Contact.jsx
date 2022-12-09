@@ -4,7 +4,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 const Contact = () => {
 	return (
-		<section className="contact-section py-20 bg-accent/20">
+		<section className="contact-section py-20 bg-accent/20 element" id="contact">
 			<div className="container mx-auto">
 				<div className="flex flex-col justify-between">
 					<div className="space-y-2 my-10 text-center">

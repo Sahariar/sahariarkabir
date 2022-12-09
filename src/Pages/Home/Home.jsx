@@ -6,6 +6,7 @@ import Projects from './HomeShared/Projects';
 import Skills from './HomeShared/Skills';
 
 const Home = () => {
+
     return (
         <>
           <Hero></Hero>  

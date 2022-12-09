@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
-import { Link} from "react-router-dom";
+import * as Scroll from 'react-scroll';
+import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 import { AuthContext } from "../../context/AuthProvider";
 import Logo from "./Logo";
 
@@ -20,22 +22,22 @@ const Header = () => {
 
 	const navItems = <>
 	<li>
-								<Link to={"#hero"}> Home</Link>
+								<Link to={"hero"} > Home</Link>
 							</li>
 							<li>
-								<Link to={"#about"}> About</Link>
+								<Link to={"about"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> About</Link>
 							</li>
 							<li>
-								<Link to={"#skills"}> Skills </Link>
+								<Link to={"skills"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> Skills </Link>
 							</li>
 							<li>
-								<Link to={"#works"}> Works </Link>
+								<Link to={"projects"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> Projects </Link>
 							</li>
 							<li>
-								<Link to={"#stats"}> Stats </Link>
+								<Link to={"stats"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> Stats </Link>
 							</li>
 							<li>
-								<Link to={"#contact"}> Contact </Link>
+								<Link to={"contact"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> Contact </Link>
 							</li>
 	</> 
 							

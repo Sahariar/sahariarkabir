@@ -7,7 +7,7 @@ const Hero = () => {
 	<div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-48 lg:flex-row lg:justify-between">
 		<div className="py-6 pl-0 text-center w-full mx-auto rounded-sm">
 		
-			<h1 className="text-5xl sm:text-6xl font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-neutral to-accent/70">
+			<h1 className="text-5xl sm:text-6xl font-extrabold text-transparent leading-8  bg-clip-text bg-gradient-to-r from-neutral to-accent/70">
 			Hello,  <span>I am </span>
                 <span className="">Sahariar</span> Kabir
 			</h1>

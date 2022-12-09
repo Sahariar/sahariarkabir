@@ -3,7 +3,7 @@ import { HiOutlineLink } from "react-icons/hi";
 
 const Projects = () => {
 	return (
-		<section className="about-section py-20">
+		<section className="about-section py-20" id="projects">
 			<div className="container mx-auto">
 				<div className="flex flex-col justify-between">
 					<div className="space-y-2 my-10 text-center">
