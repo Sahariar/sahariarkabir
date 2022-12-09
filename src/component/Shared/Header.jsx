@@ -34,9 +34,6 @@ const Header = () => {
 								<Link to={"projects"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> Projects </Link>
 							</li>
 							<li>
-								<Link to={"stats"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> Stats </Link>
-							</li>
-							<li>
 								<Link to={"contact"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> Contact </Link>
 							</li>
 	</> 
