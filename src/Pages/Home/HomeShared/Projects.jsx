@@ -1,5 +1,8 @@
 import React from "react";
+import { useState } from "react";
 import { HiOutlineLink } from "react-icons/hi";
+import { BiDetail } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
 	return (
@@ -21,7 +24,7 @@ const Projects = () => {
 							
 								<figure>
 									<img
-										src="https://i.ibb.co/7GPFpSX/resell.jpg"
+										src="https://i.ibb.co/6WVT2GV/resell-game.jpg"
 										alt="Resell Game Console Market"
 										className="rounded-t-xl"
 									/>
@@ -45,11 +48,20 @@ const Projects = () => {
 											<span>Stripe</span>
 										</p>
 									</div>
-                                    <a href="https://resell-game-console-market.web.app/"
-								target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
+									<div className="flex justify-between">
+									<a href="https://resell-game-console-market.web.app/"
+								target="_blank" className="btn btn-primary mt-0 gap-2 w-5/12"> 
+								<HiOutlineLink className="text-2xl" />Live Link
+								</a>
+
+							
+								<Link to={'projects/resell-game-console'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+							
+								
+									</div>
+                                    
 								</div>
-						
-                            
+
 						</div>
                         {/* card 1 */}
                         {/* card 2 */}
@@ -58,7 +70,7 @@ const Projects = () => {
 								<figure>
 									<img
 										src="https://i.ibb.co/s3d3Zvy/Getllooking-Great.jpg"
-										alt="Resell Game Console Market"
+										alt="getLookingGreat"
 										className="rounded-t-xl"
 									/>
 								</figure>
@@ -79,8 +91,16 @@ const Projects = () => {
 											<span>MongoDb</span>
 										</p>
 									</div>
-                                    <a href="https://getlookinggreat.web.app/"
+									<div className="flex justify-between">
+									<a href="https://getlookinggreat.web.app/"
 								target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
+
+							
+								<Link to={'projects/get-looking-great'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+							
+								
+									</div>
+                                    
 								</div>
 						
                             
@@ -114,8 +134,16 @@ const Projects = () => {
 											<span>MongoDb</span>
                                     </p>
                                 </div>
-                                <a href="https://cyber-education-b16df.web.app/"
+								<div className="flex justify-between">
+								<a href="https://cyber-education-b16df.web.app/"
                             target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
+
+							
+								<Link to={'projects/cyber-edu'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+							
+								
+									</div>
+                               
                             </div>
                     
                         
@@ -144,8 +172,16 @@ const Projects = () => {
 											<span>React,</span>
 										</p>
 									</div>
-                                    <a href="https://interview-quash.netlify.app/"
+									<div className="flex justify-between">
+									<a href="https://interview-quash.netlify.app/"
 								target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
+
+							
+								<Link to={'projects/interview-quash'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+							
+								
+									</div>
+                                    
 								</div>
 						
                             
@@ -177,9 +213,14 @@ const Projects = () => {
 											<span>Rest Api</span>
 										</p>
 									</div>
-                                    <a href="https://recipe-hut-meal.netlify.app/"
+                                    
+							
+							<div className="flex justify-between">
+							<a href="https://recipe-hut-meal.netlify.app/"
 								target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
-								</div>
+								<Link to={'projects/recipe-hut'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+									</div>
+                                    	</div>
 						
                             
 						</div>
@@ -212,9 +253,13 @@ Tools.
 											<span>Rest Api</span>
 										</p>
 									</div>
-                                    <a href="https://game-estore.netlify.app/"
+									<div className="flex justify-between">
+									<a href="https://game-estore.netlify.app/"
 								target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
-								</div>
+								<Link to={'projects/game-store'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+									</div>
+
+                                    	</div>
 						
                             
 						</div>

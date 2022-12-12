@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
+import { NavLink } from "react-router-dom";
 import * as Scroll from 'react-scroll';
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-
 import { AuthContext } from "../../context/AuthProvider";
 import Logo from "./Logo";
 
@@ -22,7 +22,8 @@ const Header = () => {
 
 	const navItems = <>
 	<li>
-								<Link to={"hero"} > Home</Link>
+		<NavLink to={"/"}>Home</NavLink>
+							
 							</li>
 							<li>
 								<Link to={"about"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> About</Link>
@@ -32,6 +33,9 @@ const Header = () => {
 							</li>
 							<li>
 								<Link to={"projects"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> Projects </Link>
+							</li>
+							<li>
+							<NavLink to={"/blog"}>Blog</NavLink>
 							</li>
 							<li>
 								<Link to={"contact"} spy={true} smooth={true} offset={50} duration={1500} delay={100}> Contact </Link>
