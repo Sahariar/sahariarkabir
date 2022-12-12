@@ -55,7 +55,7 @@ const Projects = () => {
 								</a>
 
 							
-								<Link to={'projects/resell-game-console'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+								<Link to={'/projects/resell-game-console'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
 							
 								
 									</div>
@@ -96,7 +96,7 @@ const Projects = () => {
 								target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
 
 							
-								<Link to={'projects/get-looking-great'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+								<Link to={'/projects/get-looking-great'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
 							
 								
 									</div>
@@ -139,7 +139,7 @@ const Projects = () => {
                             target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
 
 							
-								<Link to={'projects/cyber-edu'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+								<Link to={'/projects/cyber-edu'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
 							
 								
 									</div>
@@ -177,7 +177,7 @@ const Projects = () => {
 								target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
 
 							
-								<Link to={'projects/interview-quash'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+								<Link to={'/projects/interview-quash'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
 							
 								
 									</div>
@@ -218,7 +218,7 @@ const Projects = () => {
 							<div className="flex justify-between">
 							<a href="https://recipe-hut-meal.netlify.app/"
 								target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
-								<Link to={'projects/recipe-hut'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+								<Link to={'/projects/recipe-hut'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
 									</div>
                                     	</div>
 						
@@ -256,7 +256,7 @@ Tools.
 									<div className="flex justify-between">
 									<a href="https://game-estore.netlify.app/"
 								target="_blank" className="btn btn-primary mt-0 gap-4"> <HiOutlineLink className="text-2xl" />Live Link</a>
-								<Link to={'projects/game-store'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
+								<Link to={'/projects/game-store'} className="btn btn-primary mt-0 gap-2 w-5/12"><BiDetail className="text-2xl" /> Details</Link>	
 									</div>
 
                                     	</div>
